@@ -1,7 +1,8 @@
-#include <iostream>
-#include <vector>
-#include<stack>
+#include"SortAlgorithm.h"
+
+
 using namespace std;
+
 
 //»ù´¡°æÃ°ÅÝÅÅÐò
 void bubbleSort_1(int arr[], int len) {
@@ -211,13 +212,3 @@ void heapSort(int arr[], int len) {
 
 }
 
-int main() {
-	int arr[] = { 9, 8, 5, 4, 8, 3, 1, 6 };
-	int len = sizeof(arr) / sizeof(int);
-	heapSort(arr, len);
-	for (int i = 0; i < len; i++) {
-		cout << arr[i] << "\n";
-	}
-	system("pause");
-	return 0;
-}
