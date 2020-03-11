@@ -6,7 +6,7 @@ using namespace std;
 
 
 int main() {
-	int arr[] = { 9, 8, 5, 4, 8, 3, 1, 6 };
+	int arr[] = { 99, 18, 35, 54, 58, 43, 21, 89, 84, 78 };
 	int len = sizeof(arr) / sizeof(int);
 	int target = arr[0];
 	heapSort(arr, len);

@@ -31,6 +31,15 @@ int main()
 	cout << "ºóĞò±éÀú(µİ¹é)£º" << endl;
 	PostOrderTraversal(T);
 	cout << endl;
+	cout << "ÖĞĞò±éÀú(·Çµİ¹é)£º" << endl;
+	InOrderTraversaln(T);
+	cout << endl;
+	cout << "Ç°Ğò±éÀú(·Çµİ¹é)£º" << endl;
+	PreOrderTraversaln(T);
+	cout << endl;
+	cout << "ºóĞò±éÀú(·Çµİ¹é)£º" << endl;
+	PostOrderTraversaln(T);
+	cout << endl;
 	system("pause");
 	return 0;
 }

@@ -23,6 +23,7 @@
     <ProjectGuid>{B66EEFC5-44B5-404D-93F7-62E7029B8C91}</ProjectGuid>
     <RootNamespace>Traversaltree</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectName>Traversal-tree</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

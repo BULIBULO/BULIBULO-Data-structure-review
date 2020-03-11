@@ -2,6 +2,7 @@
 #include<iostream>
 #include <string> 
 #include<stdio.h>
+#include<stack>
 using namespace std;
 
 pBiTree CreateBiTree()
@@ -81,15 +82,61 @@ void PostOrderTraversal(pBiTree T)
 
 void PreOrderTraversaln(pBiTree T)
 {
+	stack<pBiTree> s;
+	pBiTree cur = T;
+	while (cur != NULL || !s.empty())
+	{
+		cout << cur->data << " ";
+		s.push(cur);
+		cur = cur->leftChild;
+		while (cur == NULL && !s.empty()) {
+			cur = s.top();
+			s.pop();
+			cur = cur->rightChild;
+		}
 
+	}
 }
 
 void InOrderTraversaln(pBiTree T)
 {
-
+	stack<pBiTree> s;
+	pBiTree cur = T;
+	while (cur != NULL || !s.empty())
+	{
+		while (cur!=NULL)
+		{
+			s.push(cur);
+			cur = cur->leftChild;
+		}
+		cur = s.top();
+		cout << cur->data << " ";
+		s.pop();
+		cur = cur->rightChild;
+	}
 }
 
 void PostOrderTraversaln(pBiTree T)
 {
-
+	cout << "begin";
+	stack<pBiTree> s;
+	stack<int> result;
+	pBiTree cur = T;
+	while (cur != NULL || !s.empty())
+	{	
+		while (cur != NULL)
+		{	
+			result.push(cur->data);
+			s.push(cur);
+			cur = cur->rightChild;
+		}
+		cur = s.top();
+		s.pop();
+		cur = cur->leftChild;
+	}
+	while (!result.empty())
+	{
+		cout << result.top()<<" ";
+		result.pop();
+	}
 }
