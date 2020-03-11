@@ -20,10 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{F8866C41-F48B-4874-A5FC-1927B65C42E4}</ProjectGuid>
-    <RootNamespace>DataStructure</RootNamespace>
+    <ProjectGuid>{B66EEFC5-44B5-404D-93F7-62E7029B8C91}</ProjectGuid>
+    <RootNamespace>Traversaltree</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
-    <ProjectName>Search-Sort</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -113,12 +112,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="SearchAlgorithm.cpp" />
-    <ClCompile Include="SortAlgorithm.cpp" />
+    <ClCompile Include="BinaryTree.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SearchAlgorithm.h" />
-    <ClInclude Include="SortAlgorithm.h" />
+    <ClInclude Include="BinaryTree.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
