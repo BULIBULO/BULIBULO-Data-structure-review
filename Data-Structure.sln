@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Search-Sort", "Data-Structure\Data-Structure.vcxproj", "{F8866C41-F48B-4874-A5FC-1927B65C42E4}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Traversal tree", "Traversal tree\Traversal tree.vcxproj", "{B66EEFC5-44B5-404D-93F7-62E7029B8C91}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Traversal-tree", "Traversal tree\Traversal tree.vcxproj", "{B66EEFC5-44B5-404D-93F7-62E7029B8C91}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Binary-Sort-Tree", "Binary-Sort-Tree\Binary-Sort-Tree.vcxproj", "{9ABA090D-2ED8-4EDE-8D6C-5361CCD42607}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,14 @@ Global
 		{B66EEFC5-44B5-404D-93F7-62E7029B8C91}.Release|x64.Build.0 = Release|x64
 		{B66EEFC5-44B5-404D-93F7-62E7029B8C91}.Release|x86.ActiveCfg = Release|Win32
 		{B66EEFC5-44B5-404D-93F7-62E7029B8C91}.Release|x86.Build.0 = Release|Win32
+		{9ABA090D-2ED8-4EDE-8D6C-5361CCD42607}.Debug|x64.ActiveCfg = Debug|x64
+		{9ABA090D-2ED8-4EDE-8D6C-5361CCD42607}.Debug|x64.Build.0 = Debug|x64
+		{9ABA090D-2ED8-4EDE-8D6C-5361CCD42607}.Debug|x86.ActiveCfg = Debug|Win32
+		{9ABA090D-2ED8-4EDE-8D6C-5361CCD42607}.Debug|x86.Build.0 = Debug|Win32
+		{9ABA090D-2ED8-4EDE-8D6C-5361CCD42607}.Release|x64.ActiveCfg = Release|x64
+		{9ABA090D-2ED8-4EDE-8D6C-5361CCD42607}.Release|x64.Build.0 = Release|x64
+		{9ABA090D-2ED8-4EDE-8D6C-5361CCD42607}.Release|x86.ActiveCfg = Release|Win32
+		{9ABA090D-2ED8-4EDE-8D6C-5361CCD42607}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
