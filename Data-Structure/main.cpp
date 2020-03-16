@@ -14,9 +14,10 @@ int main() {
 	for (int i = 0; i < len; i++) {
 		cout << arr[i] << ",";
 	}
-
+	cout << endl;
 	int result = binarySearch1(arr, target,0,len-1);
 	cout << "搜索原数列第一个元素位置的结果："<<result << endl;
+	cout << endl;
 	system("pause");
 	return 0;
 }

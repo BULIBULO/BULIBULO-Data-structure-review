@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Traversal-tree", "Traversal
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Binary-Sort-Tree", "Binary-Sort-Tree\Binary-Sort-Tree.vcxproj", "{9ABA090D-2ED8-4EDE-8D6C-5361CCD42607}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AVL-tree", "AVL-tree\AVL-tree.vcxproj", "{C3AED8F5-B89A-4C20-AFCA-09CC9F590657}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{9ABA090D-2ED8-4EDE-8D6C-5361CCD42607}.Release|x64.Build.0 = Release|x64
 		{9ABA090D-2ED8-4EDE-8D6C-5361CCD42607}.Release|x86.ActiveCfg = Release|Win32
 		{9ABA090D-2ED8-4EDE-8D6C-5361CCD42607}.Release|x86.Build.0 = Release|Win32
+		{C3AED8F5-B89A-4C20-AFCA-09CC9F590657}.Debug|x64.ActiveCfg = Debug|x64
+		{C3AED8F5-B89A-4C20-AFCA-09CC9F590657}.Debug|x64.Build.0 = Debug|x64
+		{C3AED8F5-B89A-4C20-AFCA-09CC9F590657}.Debug|x86.ActiveCfg = Debug|Win32
+		{C3AED8F5-B89A-4C20-AFCA-09CC9F590657}.Debug|x86.Build.0 = Debug|Win32
+		{C3AED8F5-B89A-4C20-AFCA-09CC9F590657}.Release|x64.ActiveCfg = Release|x64
+		{C3AED8F5-B89A-4C20-AFCA-09CC9F590657}.Release|x64.Build.0 = Release|x64
+		{C3AED8F5-B89A-4C20-AFCA-09CC9F590657}.Release|x86.ActiveCfg = Release|Win32
+		{C3AED8F5-B89A-4C20-AFCA-09CC9F590657}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
